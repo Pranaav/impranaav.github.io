@@ -1,0 +1,9 @@
+.heading h4{
+	display: inline;
+	background-color: skyblue;
+	color: red;
+}
+.heading h4: active{
+  background-color: white;
+  color: blue;
+}
