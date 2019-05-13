@@ -1,9 +1,22 @@
-.heading h4{
+.heading h2{
+  justify-content: center;
 	display: inline;
 	background-color: skyblue;
-	color: red;
+  padding: 10px;
 }
-.heading h4: active{
+.heading h2: hover{
   background-color: white;
   color: blue;
+}
+.middle{
+  display: inline;
+  background-color: green;
+}
+#text {
+  color: red;
+  justify-content: right;
+}
+#extra: hover{
+  background-color: white;
+  color: green;
 }
