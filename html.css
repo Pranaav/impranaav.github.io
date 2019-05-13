@@ -1,0 +1,9 @@
+.heading{
+	display: inline;
+	background-color: blue;
+	color: white;
+}
+.heading: active{
+	background-color: white;
+	color: blue;
+}
