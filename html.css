@@ -50,6 +50,10 @@ li a:active{
 li a:hover{
   background-color: white;
   width: 40px;
+  height: 20px;
+  font-size: 26px;
+  transition: 0.9s ease;
+  border-radius: 7px;
   color: green;
 }
 .face {
