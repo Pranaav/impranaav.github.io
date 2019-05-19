@@ -22,14 +22,19 @@ body{
 li a{
 	color: red;
 }
+li a:active{
+	background-color: white;
+	color: green;
+}
 .middle{
 	padding: 1px;
-	background-color: gray;
-	width: 100%;
+	background-color: #98FB98;
 }
 .middle p{
 	font-size: 20px;
 	display: inline-block;
+	vertical-align: top;
+	text-align: right;
 }
 .media{
 	justify-content: center;
@@ -116,14 +121,25 @@ tr:nth-child(odd) {
 }
 .media:hover a{
 	font-size: 26px;
+	transition: 0.8s ease;
 }
-.face:hover a{
+.face:hover a, .face:hover img{
 	background-color: blue;
 	color: white;
 	border-radius: 5px;
 }
-.insta:hover a{
+.insta:hover a, .insta:hover img{
 	background-color: red;
-	color: white;
+	color: #ffffff;
 	border-radius: 5px;
+}
+.middle img{
+	width: 40%;
+	height: 60%;
+}
+.media a{
+	vertical-align: top;
+}
+.face, .insta{
+	margin: auto;
 }
